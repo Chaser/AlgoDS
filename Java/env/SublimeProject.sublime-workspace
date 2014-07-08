@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/cjohnson/Documents/Learnining/AlgoDS/.gitignore",
+			"settings":
+			{
+				"buffer_size": 17,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Java/JavaC.sublime-build",
 	"command_palette":
@@ -51,7 +59,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -85,14 +93,43 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/cjohnson/Documents/Learnining/AlgoDS/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -132,7 +169,7 @@
 	"project": "SublimeProject.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
