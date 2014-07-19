@@ -51,15 +51,16 @@ we are doing the followingsteps,outlinedbelowwith pseudocode:
 */
 
 
+import java.util.*;
 
-public class TowerOfHanoi {
+class Tower {
 	private Stack<Integer> disks;
 	private int index;
-	
-	public TowerOfHanoi(int towerIndex) 
+
+	public Tower(int index)
 	{
 		disks = new Stack<Integer>();
-		index = towerIndex;
+		this.index = index;
 	}
 
 	public int index()
@@ -69,29 +70,51 @@ public class TowerOfHanoi {
 
 	public void add(int disk)
 	{
-		if(!disks.isEmpty() && disks.peek() <= d) 
-			System.out.println("Error placing disk " + d);
+		if(!disks.isEmpty() && disks.peek() <= disk)
+			System.out.println("Error placing disk");
 		else
-			disk.push(disk)
+			disks.push(disk);
 	}
 
-	public void moveTopTo(TowerOfHanoi tower)
+	public void moveTopDiskTo(Tower tower)
 	{
-		int top = disks.pop();
-		tower.add(top);
-		System.out.println("Move disk " + top + " from " + index + " to " + tower.index());
+		int topDisk = disks.pop();
+		tower.add(topDisk);
+		System.out.println("Move disk " + topDisk + " from " + index() + " to " + tower.index());
 	}
 
-	public void moveDisks(int n)
-
+	public void moveDisks(int n, Tower destination, Tower buffer)
+	{
+		if(n > 0)
+		{
+			//Move top n - 1 disks from origin to buffer using destination as a buffer
+			moveDisks(n - 1, buffer, destination);
+			//Move top from origin (this) to destination
+			moveTopDiskTo(destination);
+			//Move top n - 1 disks from bufffer to destination using origin as a buffer
+			buffer.moveDisks(n - 1, destination, this);
+		}
+	}
 
 }
 
-public static void main(String[] args) 
+public class StacksTowerofHanoi 
 {
-		int numberOfTowers = 3;
-		TowerofHanoi[] towers = new TowerofHanoi[]
-		System.out.println("Hello World!");
-}
+	public static void main(String[] args) {
+		// Set up code.
+		int n = 5;
+		Tower[] towers = new Tower[3];
+		for (int i = 0; i < 3; i++) {
+			towers[i] = new Tower(i);
+		}
+		for (int i = n - 1; i >= 0; i--) {
+			towers[0].add(i);
+		}
 
+		// Copy and paste output into a .XML file and open it with internet explorer.
+		//towers[0].print();
+		towers[0].moveDisks(n, towers[2], towers[1]);
+		//towers[2].print();
+	}
+}
 

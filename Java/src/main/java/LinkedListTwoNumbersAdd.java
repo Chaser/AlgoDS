@@ -29,13 +29,13 @@ class LinkedListNode
 	LinkedListNode next;
 }
 
-public class LinkedListParitionAroundValue
+public class LinkedListTwoNumbersAdd
 {
-	public static LinkedListNode addLists(LinkedListNode listOne, LinkedListNode listTwo)
+	public static LinkedListNode addLists(LinkedListNode listOne, LinkedListNode listTwo, int carry)
 	{
 		//Error checking
-		if(node == null) 
-			return false;
+		if(listOne == null && listTwo == null && carry == 0) 
+			return null;
 
 		LinkedListNode nextnode = node.next;
 		node.data = nextnode.data;

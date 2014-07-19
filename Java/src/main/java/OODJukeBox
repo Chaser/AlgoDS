@@ -1,0 +1,7 @@
+public class JukeBox
+{	
+	private CDPlayer cdPlayer; 
+	private Set<CD> cdCollections;
+	private SongSelector 
+
+}

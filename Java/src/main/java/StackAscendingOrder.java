@@ -1,4 +1,4 @@
-/*
+ /*
 Source:
 Cracking the Code Interview Chapter 3 Question 6
 

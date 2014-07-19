@@ -66,7 +66,7 @@ class ThreeStacksSingleArrayA1 {
 
 }
 
-public class ThreeStacksSingleArray {
+public class StackThreeStackSingleArray {
 
 	public static void main(String[] args) 
 	{

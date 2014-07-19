@@ -7,9 +7,9 @@ Push, pop and min should all operate in 0(1) time.
 /*
 Approach 1: Fixed Division
 We can divide the array in three equal parts and allow the individual stack to grow in that limited space. Note: we will use the notation"[" to mean inclusive of an end point and"(" to mean exclusive of an end point.
-• Forstack1,wewilluse[0, n/3).
-• For stack2,wewill use[n/3j 2n/3).
-• For stacks,wewill use[2n/3, n).
+• Forstack1,we willuse[0, n/3).
+• For stack2,we will use[n/3j 2n/3).
+• For stacks,we will use[2n/3, n).
 */
 import java.util.*;
 

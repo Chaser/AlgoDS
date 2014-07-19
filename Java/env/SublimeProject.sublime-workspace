@@ -3,15 +3,43 @@
 	{
 		"selected_items":
 		[
+			[
+				"left",
+				"left_size"
+			],
+			[
+				"ind",
+				"indexB"
+			],
+			[
+				"inde",
+				"indexMerged"
+			],
+			[
+				"index",
+				"indexA"
+			],
+			[
+				"in",
+				"indexMerged"
+			],
+			[
+				"countWay",
+				"countWaysDP"
+			],
+			[
+				"new",
+				"newLength-1"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/cjohnson/Documents/Learnining/AlgoDS/.gitignore",
+			"file": "/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/Quick.java",
 			"settings":
 			{
-				"buffer_size": 17,
+				"buffer_size": 2037,
 				"line_ending": "Unix"
 			}
 		}
@@ -43,6 +71,45 @@
 	},
 	"file_history":
 	[
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/OODJukeBox",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/OODDeckOfCards.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/OODCallCenter.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/TreeFindNextNode.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/BreadthFirstPaths.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StacksTowerofHanoi.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/GraphRouteCheck.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/SearchRotatedArray.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/LinkedListTwoNumbersAdd.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/SearchStringArray.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/RecursionStringPermutation.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/Quick.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/DepthFirstSearch.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/SeperateChainingHash.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/Merge.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/Insertion.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/Selection.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/README.txt",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/SearchRank.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/TreeBSTCheck.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/TreeBinaryBalanceCheck.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/TreeBSTCreate.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StackAscendingOrder.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/SortAnagram.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringCharChanger.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringRotation.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/RecursionStepCounter.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StackThreeStackSingleArray.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringCompression.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/.gitignore",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringLength.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringAnagram.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringReverse.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringUnique.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StringPalindrome.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/BinaryTreeBalanceCheck.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/SetOfStacks.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/StackWithMin.java",
+		"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/TwoStackQueue.java",
 		"/Users/chasejohnson/Documents/Learning/AlgoDS/Java/src/main/java/LinkedListTwoNumbersAdd.java",
 		"/Users/chasejohnson/Documents/Learning/AlgoDS/Java/src/main/java/LinkedListFindKthToLast.java",
 		"/Users/chasejohnson/Documents/Learning/AlgoDS/Java/src/main/java/LinkedListDeleteDuplicates.java",
@@ -59,13 +126,14 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java"
 		]
 	},
 	"find_state":
@@ -73,6 +141,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"CompareTo",
+			"ArrayList",
+			"compareTo",
+			"comparable",
+			"LinkedList",
+			"LinkedList<",
+			"implements",
+			"implement",
+			"extends",
+			"compare",
 			"EXPECT_ABORT_BEGIN",
 			"time",
 			"1"
@@ -98,24 +176,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/cjohnson/Documents/Learnining/AlgoDS/.gitignore",
-					"semi_transient": false,
+					"file": "/Users/cjohnson/Documents/Learnining/AlgoDS/Java/src/main/java/Quick.java",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 17,
+						"buffer_size": 2037,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16,
-								16
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -160,7 +239,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 232.0
+		"height": 169.0
 	},
 	"output.find_results":
 	{
@@ -212,7 +291,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 287.0,
+	"side_bar_width": 305.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

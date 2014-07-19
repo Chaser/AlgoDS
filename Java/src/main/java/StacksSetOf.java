@@ -11,8 +11,7 @@ should behave identically to a single stack (that is,pop() should return the sam
 values as it would if there werejust a single stack).
 */
 
-/*
-*/
+
 import java.util.*;
 
 public class SetOfStacks

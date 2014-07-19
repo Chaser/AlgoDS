@@ -2,7 +2,7 @@
 Source - Cracking the Code Interview Chapter 3 Question 5
 
 Question:
-Implement a MyQueue class which implementws a queue using two stacks.
+Implement a MyQueue class which implements a queue using two stacks.
 
 Solution:
 Stack is LIFO, Queue is FIFO.
